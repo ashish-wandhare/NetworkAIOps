@@ -1,0 +1,45 @@
+# Python environments and cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Local databases and backups
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.backup*
+
+# MLflow local tracking data
+mlruns/
+
+# Secrets and environment configuration
+.env
+.env.*
+!.env.example
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated logs
+*.log
+
+# Temporary dependency inspection
+dependencies_check.txt
+
+# Local telemetry database and backups
+data/*.db
+data/*.db-*
+data/*.sqlite
+data/*.sqlite3
+data/*.backup*
+
+# Local configuration backups
+*.yml.backup
+*.yaml.backup
+docker-compose.yml.backup
+Old_README.md

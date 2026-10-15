@@ -187,7 +187,7 @@ Use `Ctrl+C` to stop following logs. This does not itself stop the containers.
 Once Kafka and the consumer are running, open another PowerShell terminal in the project root:
 
 ```powershell
-docker compose run --rm consumer python src/kafka_producer.py --count 5 --interval 1 --anomaly-every 2
+docker compose run --rm consumer python src/kafka_producer.py --bootstrap-servers kafka:9092 --count 5 --interval 1 --anomaly-every 2
 ```
 
 The producer publishes synthetic telemetry events to Kafka. The consumer processes events, runs anomaly detection and rule checks, and persists the results.

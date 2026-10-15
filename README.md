@@ -376,3 +376,34 @@ Network AIOps demonstrates an end-to-end engineering workflow that combines stre
 The project is a locally tested portfolio prototype using synthetic telemetry. Production use would require additional reliability, security, scaling, and real-data validation.
 
 GitHub repository: https://github.com/ashish-wandhare/NetworkAIOps
+
+
+## Data, Evaluation, and Limitations
+
+### Data Source
+
+This project currently uses synthetic network telemetry generated for development and testing. The telemetry includes network metrics such as latency, packet loss, bandwidth, and interface errors.
+
+The system has been tested with synthetic events to verify the telemetry processing pipeline, Kafka integration, anomaly detection, alert generation, and monitoring dashboards.
+
+### Machine Learning Evaluation
+
+The project uses an Isolation Forest model for anomaly detection, alongside rule-based checks for predefined network conditions.
+
+The reported evaluation metrics were obtained using synthetic data. They demonstrate the model's behavior under the tested conditions and should not be interpreted as evidence of performance on real enterprise networks.
+
+### Current Limitations
+
+- The model has not yet been validated using real enterprise network telemetry.
+- Synthetic test results may not represent the complexity and variability of production network traffic.
+- Rule-based alerts depend on predefined thresholds and conditions.
+- Anomaly detection results may vary with data characteristics, model configuration, and the chosen contamination parameter.
+- The project is a portfolio prototype and has not been validated for production deployment.
+
+### Future Improvements
+
+- Evaluate the model using suitable real-world or publicly available network telemetry datasets.
+- Compare model predictions with verified anomaly labels.
+- Assess false positives, false negatives, precision, recall, and F1-score on representative test data.
+- Tune the model and alert thresholds based on evaluation results.
+- Further assess reliability, security, and scalability before any production use.

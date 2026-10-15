@@ -48,7 +48,7 @@ services:
   consumer:
     build: .
     container_name: network-aiops-consumer
-    command: ["python", "src/kafka_consumer.py", "--bootstrap-servers", "kafka:9092", "--model-source", "mlflow", "--group-id", "network-aiops-mlflow"]
+    command: ["python", "src/kafka_consumer.py", "--bootstrap-servers", "kafka:9092", "--model-source", "joblib", "--group-id", "network-aiops-mlflow"]
     volumes:
       - ./data:/app/data
       - ./mlflow.db:/app/mlflow.db

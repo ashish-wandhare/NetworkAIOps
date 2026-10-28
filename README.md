@@ -407,3 +407,15 @@ The reported evaluation metrics were obtained using synthetic data. They demonst
 - Assess false positives, false negatives, precision, recall, and F1-score on representative test data.
 - Tune the model and alert thresholds based on evaluation results.
 - Further assess reliability, security, and scalability before any production use.
+
+## 📸 Application Screenshots
+<img width="1917" height="892" alt="1_Overview_home_page1" src="https://github.com/user-attachments/assets/4b1bbefd-2a04-40d2-bc28-8a9a9820f540" />
+<img width="1901" height="891" alt="2_Overview_home_page2" src="https://github.com/user-attachments/assets/1caa55ee-c231-4176-86a7-2abebc3d141e" />
+<img width="1886" height="871" alt="3_Overview_home_page3" src="https://github.com/user-attachments/assets/d79a4aeb-76e2-404b-9b58-bdb1024e9065" />
+<img width="1867" height="877" alt="4_Telemetry" src="https://github.com/user-attachments/assets/4e96b8ca-d842-4011-94e7-e40f793a5c65" />
+<img width="1897" height="847" alt="5_Incident" src="https://github.com/user-attachments/assets/f21c7c14-b729-43da-a565-51dd22ea34e4" />
+<img width="1917" height="860" alt="6_Grafana" src="https://github.com/user-attachments/assets/5a3de23f-65fb-4a18-ac0e-66bb657cc538" />
+<img width="1915" height="890" alt="7_Grafana_page2" src="https://github.com/user-attachments/assets/e9f058d6-467e-4e9c-a860-86f5f29e5fc1" />
+<img width="1916" height="658" alt="8_Prometheus_status" src="https://github.com/user-attachments/assets/cd19fff5-f289-4ac7-a603-048b4428d9f9" />
+<img width="1910" height="900" alt="9_Prometheus_graph" src="https://github.com/user-attachments/assets/70101848-6fd8-4c00-8c83-b22dd7bf6c60" />
+<img width="1886" height="660" alt="API_SwaggerUI" src="https://github.com/user-attachments/assets/5e9b18e7-2c19-4b98-8574-4e9204a36f81" />
